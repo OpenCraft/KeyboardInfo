@@ -1,0 +1,6 @@
+framework module KeyboardInfo {
+  umbrella header "KeyboardInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}

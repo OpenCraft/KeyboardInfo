@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KeyboardInfo_Example' do
+  pod 'KeyboardInfo', :path => '../'
+
+  target 'KeyboardInfo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

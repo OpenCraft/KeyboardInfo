@@ -1,0 +1,16 @@
+PODS:
+  - KeyboardInfo (0.1.0)
+
+DEPENDENCIES:
+  - KeyboardInfo (from `../`)
+
+EXTERNAL SOURCES:
+  KeyboardInfo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KeyboardInfo: e3e91268a596b730e7b932aa7b7ad9555e2bb3c1
+
+PODFILE CHECKSUM: 7b624dfc7d4473ca38dc65a22827209c74319c87
+
+COCOAPODS: 1.2.1

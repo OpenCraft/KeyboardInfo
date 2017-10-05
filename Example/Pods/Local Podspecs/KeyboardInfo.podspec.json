@@ -1,0 +1,22 @@
+{
+  "name": "KeyboardInfo",
+  "version": "0.1.0",
+  "summary": "A short description of KeyboardInfo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/luis.silva@ilegra.com/KeyboardInfo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luis.silva@ilegra.com": "luis.silva@ilegra.com"
+  },
+  "source": {
+    "git": "https://github.com/luis.silva@ilegra.com/KeyboardInfo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KeyboardInfo/Classes/**/*"
+}
