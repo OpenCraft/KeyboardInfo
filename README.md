@@ -5,11 +5,29 @@
 [![License](https://img.shields.io/cocoapods/l/KeyboardInfo.svg?style=flat)](http://cocoapods.org/pods/KeyboardInfo)
 [![Platform](https://img.shields.io/cocoapods/p/KeyboardInfo.svg?style=flat)](http://cocoapods.org/pods/KeyboardInfo)
 
+## Usage
+
+All you need to is add the setup to `AppDelegate`
+```swift
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    KeyboardInfo.shared.setup()
+    return true
+}
+```
+
+Then, can access it's singleton and get the provided informations
+```swift
+KeyboardInfo.shared.height
+KeyboardInfo.shared.animationCurve
+KeyboardInfo.shared.animationDuration
+```
+*Informations are updated only when the keyboard appears*
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+iOS 8.3 or higher
 
 ## Installation
 
@@ -22,7 +40,7 @@ pod 'KeyboardInfo'
 
 ## Author
 
-luis.silva@ilegra.com, luis.silva@ilegra.com
+Luis Filipe Campani, luisfilipecampani@gmail.com
 
 ## License
 
