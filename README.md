@@ -26,9 +26,6 @@ KeyboardInfo.shared.animationDuration
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-iOS 8.3 or higher
-
 ## Installation
 
 KeyboardInfo is available through [CocoaPods](http://cocoapods.org). To install
